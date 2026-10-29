@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Validated High-Resolution Native Vector Header -->
-  <img src="https://raw.githubusercontent.com/hhtuser/hhtuser/main/assets/header.svg" width="100%" alt="Hossein Hatami Header" />
+  <img src="https://raw.githubusercontent.com/hhtuser/hhtuser/main/assets/header.svg" width="100%" alt="Hussein Hatami Header" />
   <br/><br/>
   
   <!-- Dynamic Animated Typing Headline -->
@@ -18,7 +18,7 @@
     </a>
     &nbsp;&nbsp;
     <a href="https://www.linkedin.com/in/hhtuser" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.shields.io/badge/LinkedIn-Hossein_Hatami-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
+      <img src="https://img.shields.io/badge/LinkedIn-Hussein_Hatami-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
     </a>
     &nbsp;&nbsp;
     <a href="mailto:eng.hattami@gmail.com">
@@ -99,7 +99,7 @@
 | :--- | :--- | :--- |
 | 🚀 **Smyle Team** | Engineering & Development Team | [smyle.ir](https://smyle.ir) |
 | 🌐 **Personal Hub** | Personal Portfolio, Thoughts &amp; Technical Insights | [hhtsite.ir](https://hhtsite.ir) |
-| 💼 **LinkedIn** | Professional Network, Articles &amp; Discussions | [Hossein Hatami](https://www.linkedin.com/in/hhtuser) |
+| 💼 **LinkedIn** | Professional Network, Articles &amp; Discussions | [Hussein Hatami](https://www.linkedin.com/in/hhtuser) |
 | 🐙 **GitHub** | Open Source, AI Experiments &amp; Architecture Tools | [@hhtuser](https://github.com/hhtuser) |
 | 📬 **Direct Email** | Technical Inquiries, Architecture &amp; Collaboration | [eng.hattami@gmail.com](mailto:eng.hattami@gmail.com) |
 
@@ -121,5 +121,5 @@
   <br/>
   <img src="https://komarev.com/ghpvc/?username=hhtuser&color=38bdf8&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
   <br/><br/>
-  <sub>Crafted with continuous learning, curiosity &amp; precision • Hossein Hatami</sub>
+  <sub>Crafted with continuous learning, curiosity &amp; precision • Hussein Hatami</sub>
 </div>
