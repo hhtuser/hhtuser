@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Validated High-Resolution Native Vector Header -->
-  <img src="https://raw.githubusercontent.com/hhtuser/hhtuser/main/assets/header.svg" width="100%" alt="Hussein Hatami Header" />
+  <img src="https://raw.githubusercontent.com/hhtuser/hhtuser/main/assets/header_hussein.svg" width="100%" alt="Hussein Hatami Header" />
   <br/><br/>
   
   <!-- Dynamic Animated Typing Headline -->
