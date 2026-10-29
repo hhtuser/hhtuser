@@ -28,8 +28,8 @@
     </linearGradient>
 
     <linearGradient id="stroke4" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0.05"/>
+      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0.05"/>
     </linearGradient>
 
     <!-- Glow Filter -->
@@ -51,77 +51,69 @@
 
   <!-- Subtle Accent Glows -->
   <circle cx="50" cy="50" r="100" fill="#38bdf8" opacity="0.03" filter="url(#glow)"/>
-  <circle cx="790" cy="280" r="120" fill="#818cf8" opacity="0.03" filter="url(#glow)"/>
+  <circle cx="790" cy="280" r="120" fill="#f43f5e" opacity="0.03" filter="url(#glow)"/>
 
-  <!-- ================= CARD 1 ================= -->
+  <!-- ================= CARD 1: APPLIED AI ================= -->
   <g transform="translate(18, 18)">
+    <rect width="394" height="138" rx="12" fill="url(#cardGrad1)" stroke="url(#stroke4)" stroke-width="1.5"/>
+    <rect x="18" y="18" width="34" height="34" rx="8" fill="#9f1239" fill-opacity="0.25" stroke="#f43f5e" stroke-opacity="0.5"/>
+    <text x="35" y="41" text-anchor="middle" font-size="18">🧠</text>
+    
+    <text x="64" y="34" class="title">Artificial Intelligence &amp; Agents</text>
+    <text x="64" y="50" class="subtitle" fill="#f43f5e">LLMs • Agentic Workflows • Autonomous Tools</text>
+    
+    <text x="18" y="84" class="desc">Deeply exploring AI-augmented systems, agent orchestration, and</text>
+    <text x="18" y="102" class="desc">integrating machine intelligence into real-world software workflows.</text>
+
+    <rect x="18" y="112" width="138" height="18" rx="4" fill="#f43f5e" fill-opacity="0.12"/>
+    <text x="87" y="125" text-anchor="middle" class="badge" fill="#f43f5e">Always Learning AI</text>
+  </g>
+
+  <!-- ================= CARD 2: BACKEND & ARCHITECTURE ================= -->
+  <g transform="translate(428, 18)">
     <rect width="394" height="138" rx="12" fill="url(#cardGrad1)" stroke="url(#stroke1)" stroke-width="1.5"/>
-    <!-- Icon Circle -->
     <rect x="18" y="18" width="34" height="34" rx="8" fill="#0369a1" fill-opacity="0.25" stroke="#38bdf8" stroke-opacity="0.5"/>
     <text x="35" y="41" text-anchor="middle" font-size="18">🏛️</text>
     
-    <text x="64" y="34" class="title">Enterprise Core Architecture</text>
-    <text x="64" y="50" class="subtitle" fill="#38bdf8">Symfony 7.4 LTS • PHP 8.4 • Clean Architecture</text>
+    <text x="64" y="34" class="title">Enterprise Architecture</text>
+    <text x="64" y="50" class="subtitle" fill="#38bdf8">Symfony • PHP • Clean Architecture</text>
     
-    <text x="18" y="84" class="desc">Modular monoliths, domain boundaries &amp; zero-downtime migration</text>
-    <text x="18" y="102" class="desc">from legacy codebases with strict backward compatibility.</text>
+    <text x="18" y="84" class="desc">Modular architecture, domain design &amp; smooth system refactoring</text>
+    <text x="18" y="102" class="desc">with zero downtime and strict backward compatibility.</text>
 
-    <!-- Tag -->
-    <rect x="18" y="112" width="112" height="18" rx="4" fill="#38bdf8" fill-opacity="0.12"/>
-    <text x="74" y="125" text-anchor="middle" class="badge" fill="#38bdf8">SOLID &amp; Event-Driven</text>
+    <rect x="18" y="112" width="124" height="18" rx="4" fill="#38bdf8" fill-opacity="0.12"/>
+    <text x="80" y="125" text-anchor="middle" class="badge" fill="#38bdf8">Modular Systems</text>
   </g>
 
-  <!-- ================= CARD 2 ================= -->
-  <g transform="translate(428, 18)">
+  <!-- ================= CARD 3: DATA & PERFORMANCE ================= -->
+  <g transform="translate(18, 172)">
     <rect width="394" height="138" rx="12" fill="url(#cardGrad1)" stroke="url(#stroke2)" stroke-width="1.5"/>
-    <!-- Icon Circle -->
     <rect x="18" y="18" width="34" height="34" rx="8" fill="#065f46" fill-opacity="0.25" stroke="#34d399" stroke-opacity="0.5"/>
     <text x="35" y="41" text-anchor="middle" font-size="18">⚡</text>
     
     <text x="64" y="34" class="title">High-Throughput Data Layer</text>
-    <text x="64" y="50" class="subtitle" fill="#34d399">MySQL 8.4 • PostgreSQL • Redis • Doctrine</text>
+    <text x="64" y="50" class="subtitle" fill="#34d399">MySQL • PostgreSQL • Redis • DBAL</text>
     
-    <text x="18" y="84" class="desc">High-concurrency query optimization, atomic multi-tenant schema</text>
-    <text x="18" y="102" class="desc">design, composite indexing, and sub-millisecond cache pipelines.</text>
+    <text x="18" y="84" class="desc">High-concurrency query optimization, multi-tenant schema design,</text>
+    <text x="18" y="102" class="desc">composite indexing, and low-latency cache pipelines.</text>
 
-    <!-- Tag -->
     <rect x="18" y="112" width="118" height="18" rx="4" fill="#34d399" fill-opacity="0.12"/>
-    <text x="77" y="125" text-anchor="middle" class="badge" fill="#34d399">Sub-ms Query Tuning</text>
+    <text x="77" y="125" text-anchor="middle" class="badge" fill="#34d399">Query Optimization</text>
   </g>
 
-  <!-- ================= CARD 3 ================= -->
-  <g transform="translate(18, 172)">
+  <!-- ================= CARD 4: APPSEC & DEFENSIVE ================= -->
+  <g transform="translate(428, 172)">
     <rect width="394" height="138" rx="12" fill="url(#cardGrad1)" stroke="url(#stroke3)" stroke-width="1.5"/>
-    <!-- Icon Circle -->
     <rect x="18" y="18" width="34" height="34" rx="8" fill="#3730a3" fill-opacity="0.25" stroke="#818cf8" stroke-opacity="0.5"/>
     <text x="35" y="41" text-anchor="middle" font-size="18">🛡️</text>
     
-    <text x="64" y="34" class="title">Defensive Security &amp; ASVS</text>
-    <text x="64" y="50" class="subtitle" fill="#818cf8">OWASP ASVS L2/3 • Zero-Trust • AppSec</text>
+    <text x="64" y="34" class="title">Defensive Security &amp; Quality</text>
+    <text x="64" y="50" class="subtitle" fill="#818cf8">OWASP Security • Zero-Trust • Unit Testing</text>
     
-    <text x="18" y="84" class="desc">Rigorous sanitization, WAF-safe request filtering, cryptographic</text>
-    <text x="18" y="102" class="desc">integrity, and fine-grained multi-level access control guardrails.</text>
+    <text x="18" y="84" class="desc">Rigorous sanitization, secure request filtering, cryptographic</text>
+    <text x="18" y="102" class="desc">integrity, automated test suites, and robust access controls.</text>
 
-    <!-- Tag -->
-    <rect x="18" y="112" width="112" height="18" rx="4" fill="#818cf8" fill-opacity="0.12"/>
-    <text x="74" y="125" text-anchor="middle" class="badge" fill="#818cf8">Defensive-by-Design</text>
-  </g>
-
-  <!-- ================= CARD 4 ================= -->
-  <g transform="translate(428, 172)">
-    <rect width="394" height="138" rx="12" fill="url(#cardGrad1)" stroke="url(#stroke4)" stroke-width="1.5"/>
-    <!-- Icon Circle -->
-    <rect x="18" y="18" width="34" height="34" rx="8" fill="#854d0e" fill-opacity="0.25" stroke="#fbbf24" stroke-opacity="0.5"/>
-    <text x="35" y="41" text-anchor="middle" font-size="18">🤖</text>
-    
-    <text x="64" y="34" class="title">Agentic Engineering &amp; Tooling</text>
-    <text x="64" y="50" class="subtitle" fill="#fbbf24">Autonomous Agents • CI/CD • Developer Tools</text>
-    
-    <text x="18" y="84" class="desc">Harnessing LLM agents, automated verification pipelines, and</text>
-    <text x="18" y="102" class="desc">custom developer CLIs to accelerate high-quality software delivery.</text>
-
-    <!-- Tag -->
-    <rect x="18" y="112" width="128" height="18" rx="4" fill="#fbbf24" fill-opacity="0.12"/>
-    <text x="82" y="125" text-anchor="middle" class="badge" fill="#fbbf24">AI-Augmented Velocity</text>
+    <rect x="18" y="112" width="126" height="18" rx="4" fill="#818cf8" fill-opacity="0.12"/>
+    <text x="81" y="125" text-anchor="middle" class="badge" fill="#818cf8">Secure by Default</text>
   </g>
 </svg>
