@@ -1,13 +1,13 @@
 <div align="center">
-  <!-- Header Banner (Direct High-Speed SVG Rendering) -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,24,38,62,84,100&height=220&section=header&text=Hossein%20Hatami&fontSize=42&fontAlignY=38&desc=Software%20Engineer%20%7C%20Lifelong%20Learner%20%26%20AI%20Enthusiast&descFontSize=17&descAlignY=59&theme=tokyonight" width="100%" alt="Hossein Hatami Banner" />
+  <!-- Validated High-Resolution Native Vector Header -->
+  <img src="https://raw.githubusercontent.com/hhtuser/hhtuser/main/assets/header.svg" width="100%" alt="Hossein Hatami Header" />
   <br/><br/>
   
   <!-- Dynamic Animated Typing Headline -->
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1400&color=38BDF8&center=true&vCenter=true&width=700&lines=Software+Engineer+%E2%80%A2+Lifelong+Learner;Exploring+Applied+Artificial+Intelligence+%26+AI+Agents;Enterprise+Web+Architectures+%E2%80%A2+Symfony+%26+PHP;High-Performance+Databases+%E2%80%A2+MySQL+%26+PostgreSQL;Automation%2C+Agentic+Workflows+%26+Clean+Code" alt="Typing Headline" />
   <br/><br/>
 
-  <!-- Curated Ecosystem & Social Connection Badges -->
+  <!-- Clean Primary Connection Toolbar -->
   <p align="center">
     <a href="https://smyle.ir" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/Team-smyle.ir-0284c7?style=for-the-badge&logo=rocket&logoColor=white" alt="Smyle Team" />
@@ -24,8 +24,6 @@
     <a href="mailto:eng.hattami@gmail.com">
       <img src="https://img.shields.io/badge/Contact-Email-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
-    &nbsp;&nbsp;
-    <img src="https://komarev.com/ghpvc/?username=hhtuser&color=38bdf8&style=for-the-badge&label=VIEWS" alt="Profile Views" />
   </p>
 
   <br/>
@@ -121,5 +119,7 @@
   <br/><br/>
   <img src="https://raw.githubusercontent.com/hhtuser/hhtuser/main/assets/footer.svg" width="100%" alt="Footer Wave" />
   <br/>
+  <img src="https://komarev.com/ghpvc/?username=hhtuser&color=38bdf8&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+  <br/><br/>
   <sub>Crafted with continuous learning, curiosity &amp; precision • Hossein Hatami</sub>
 </div>

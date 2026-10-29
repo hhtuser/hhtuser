@@ -1,45 +1,118 @@
+<svg
+  width="100%"
+  height="220"
+  viewBox="0 0 900 220"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="headerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0b1329"/>
+    </linearGradient>
 
-      <svg
-        width="854"
-        height="210"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        style="z-index:1;position:relative"
-        viewBox="0 0 854 210"
-      >
-        <style>
-      .text {   font-size: 42px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 20px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } 
-      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
-    </style>
-        
-        
-      <g transform="translate(427, 105) scale(1, 1) translate(-427, -105)">
-        <path d="" fill="#1a1b27" opacity="0.4" >
-          <animate
-              attributeName="d"
-              dur="20s"
-              repeatCount="indefinite"
-              keyTimes="0;0.333;0.667;1"
-              calcmod="spline"
-              keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-              begin="0s"
-              values="M0 0L 0 130Q 213.5 170 427 140T 854 165L 854 0 Z;M0 0L 0 155Q 213.5 170 427 150T 854 140L 854 0 Z;M0 0L 0 175Q 213.5 145 427 175T 854 140L 854 0 Z;M0 0L 0 130Q 213.5 170 427 140T 854 165L 854 0 Z">
-          </animate>
-        </path>
-        <path d="" fill="#1a1b27" opacity="0.4" >
-          <animate
-            attributeName="d"
-            dur="20s"
-            repeatCount="indefinite"
-            keyTimes="0;0.333;0.667;1"
-            calcmod="spline"
-            keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-            begin="-10s"
-            values="M0 0L 0 145Q 213.5 190 427 160T 854 170L 854 0 Z;M0 0L 0 160Q 213.5 130 427 130T 854 150L 854 0 Z;M0 0L 0 155Q 213.5 135 427 160T 854 175L 854 0 Z;M0 0L 0 145Q 213.5 190 427 160T 854 170L 854 0 Z">
-          </animate>
-        </path>
-      </g>
-         <text text-anchor="middle" dominant-baseline="middle" x="50%" y="38%" class="text" style="fill:#628fda;" stroke="#none" stroke-width="1" >Hossein Hatami</text>
-        <text text-anchor="middle" dominant-baseline="middle" x="50%" y="59%" class="desc" style="fill:#38bdae;">Software Engineer | Lifelong Learner & AI Enthusiast</text>
-      </svg>
-    
+    <!-- Name Gradient -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="45%" stop-color="#818cf8"/>
+      <stop offset="80%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+
+    <!-- Wave 1 Gradient -->
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Wave 2 Gradient -->
+    <linearGradient id="wave2" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .header-tag {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      fill: #38bdf8;
+    }
+    .header-name {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 46px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .header-subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      fill: #94a3b8;
+      letter-spacing: 0.5px;
+    }
+    .header-highlight {
+      fill: #38bdf8;
+      font-weight: 600;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="900" height="220" rx="14" fill="url(#headerBg)"/>
+
+  <!-- Glow Orbs -->
+  <circle cx="150" cy="40" r="90" fill="#38bdf8" opacity="0.08" filter="url(#glow)"/>
+  <circle cx="750" cy="70" r="110" fill="#818cf8" opacity="0.08" filter="url(#glow)"/>
+
+  <!-- Animated Wave 1 -->
+  <path fill="url(#wave1)">
+    <animate
+      attributeName="d"
+      dur="12s"
+      repeatCount="indefinite"
+      values="
+        M0,160 Q225,120 450,165 T900,150 L900,220 L0,220 Z;
+        M0,150 Q225,175 450,140 T900,165 L900,220 L0,220 Z;
+        M0,160 Q225,120 450,165 T900,150 L900,220 L0,220 Z
+      "
+    />
+  </path>
+
+  <!-- Animated Wave 2 -->
+  <path fill="url(#wave2)">
+    <animate
+      attributeName="d"
+      dur="16s"
+      repeatCount="indefinite"
+      values="
+        M0,175 Q225,145 450,180 T900,160 L900,220 L0,220 Z;
+        M0,165 Q225,190 450,155 T900,180 L900,220 L0,220 Z;
+        M0,175 Q225,145 450,180 T900,160 L900,220 L0,220 Z
+      "
+    />
+  </path>
+
+  <!-- Top Pill Badge -->
+  <g transform="translate(450, 42)">
+    <rect x="-140" y="-14" width="280" height="28" rx="14" fill="#38bdf8" fill-opacity="0.1" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1"/>
+    <text text-anchor="middle" y="4" class="header-tag">SYSTEMS • ARCHITECTURE • APPLIED AI</text>
+  </g>
+
+  <!-- Title: Hossein Hatami -->
+  <text text-anchor="middle" x="450" y="112" class="header-name" fill="url(#nameGrad)">Hossein Hatami</text>
+
+  <!-- Subtitle -->
+  <text text-anchor="middle" x="450" y="148" class="header-subtitle">
+    Software Engineer <tspan fill="#64748b">•</tspan> <tspan class="header-highlight">Lifelong Learner</tspan> <tspan fill="#64748b">•</tspan> AI Enthusiast
+  </text>
+</svg>
